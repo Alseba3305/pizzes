@@ -3,6 +3,7 @@
  	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
  	<title>FES LA TEVA PIZZA</title>
  </head>
+ <a href="pizza.html">Retorna al formulari de seleccio d'ingredients</a>
  <body>
  <?php
     $preu = 8;
@@ -10,7 +11,7 @@
     if (empty($_GET['ingr'])) {
     	$pvp=((100+$IVA)/100)*$preu;
     	echo "Has demanat només la pizza bàsica. El preu és $pvp € (IVA inclòs)<br>";
-    	exit(0);
+    	# exit(0);
     }
     else {
     	$IVA=21;
@@ -22,7 +23,7 @@
                 }
         }
         echo "El preu és $pvp € (IVA inclòs)<br>";
-        exit(0);
+        # exit(0);
     }
     echo "<br>";
     echo "Autor: dacomo"."<br>";
