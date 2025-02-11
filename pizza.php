@@ -26,7 +26,7 @@
         # exit(0);
     }
     echo "<br>";
-    echo "Autor: Alseba"."<br>";
+    echo "Autor: Alseba3305 a"."<br>";
  ?>
  </body>
 </html>
